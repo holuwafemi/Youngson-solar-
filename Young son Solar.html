@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Youngson Solar Energy Catalogue</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #f39c12;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url("solar-bg.jpg") no-repeat center/cover;
+      color: white;
+      padding: 120px 20px;
+      text-align: center;
+    }
+    .hero h1 { font-size: 48px; margin-bottom: 15px; }
+    .hero p { font-size: 20px; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .contact {
+      background: #eee;
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    button {
+      background: #f39c12;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover { background: #e67e22; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Youngson Solar Energy Catalogue</h1>
+    <p>Affordable & Reliable Solar Products</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Go Solar, Save Energy!</h1>
+    <p>Check our catalogue for solar panels, inverters, and batteries</p>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <div class="product">
+      <img src="Solar Panel.jpg" alt="Solar Panel">
+      <h2>300W Solar Panel</h2>
+      <p><strong>₦55,000</strong></p>
+      <a href="https://wa.me/2349061989529?text=Hello,%20I'm%20interested%20in%20the%20300W%20Solar%20Panel">
+        <button>Order on WhatsApp</button>
+      </a>
+    </div>
+    <div class="product">
+      <img src="inverter.jpg" alt="Inverter">
+      <h2>2.5KVA Inverter</h2>
+      <p><strong>₦120,000</strong></p>
+      <a href="https://wa.me/2349061989529?text=Hello,%20I'm%20interested%20in%20the%202.5KVA%20Inverter">
+        <button>Order on WhatsApp</button>
+      </a>
+    </div>
+    <div class="product">
+      <img src="battery.jpg" alt="Battery">
+      <h2>200Ah Battery</h2>
+      <p><strong>₦280,000</strong></p>
+      <a href="https://wa.me/2349061989529?text=Hello,%20I'm%20interested%20in%20the%20200Ah%20Battery">
+        <button>Order on WhatsApp</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="contact" id="about">
+    <h2>About Us</h2>
+    <p>We provide high-quality solar products at affordable prices to power homes, offices, and businesses across Nigeria.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Call: 080XXXXXXX</p>
+    <p>💬 WhatsApp: <a href="https://wa.me/2349061989529">Chat with us</a></p>
+    <p>📧 Email: info@solarstore.com</p>
+    <p>📍 Location: Ibadan, Nigeria</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Youngson Solar Energy. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
